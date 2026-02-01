@@ -1,14 +1,14 @@
 # 🌾 Crop Yield Prediction System
 This project is an end-to-end Crop Yield Prediction application that estimates agricultural yield based on key environmental and regional factors. It integrates a machine learning model, a FastAPI backend, and a Streamlit frontend, all containerized using Docker for smooth deployment.
 
-# 📌 Project Overview
+## 📌 Project Overview
 The goal of this project is to predict crop yield using historical agricultural and climate data. The system follows a production-style architecture:
 Machine Learning Model for yield prediction
 FastAPI for serving predictions as REST APIs
 Streamlit for an interactive web-based user interface
 Docker for containerization and easy deploy
 
-# 📊 Features Used for Prediction
+## 📊 Features Used for Prediction
 
 The model predicts crop yield using the following input features:
 
@@ -19,7 +19,7 @@ The model predicts crop yield using the following input features:
 5. Pesticides Used (tonnes)
 6. Average Temperature (°C)
 
-# 🤖 Model Performance
+## 🤖 Model Performance
 
 Multiple regression models were evaluated. Below are the results:
 
@@ -32,3 +32,12 @@ Multiple regression models were evaluated. Below are the results:
 
 ✅ Decision Tree and KNN models performed best, with high accuracy and low error.
 
+## 🧠 Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
